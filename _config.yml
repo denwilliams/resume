@@ -25,11 +25,11 @@ resume_looking_for_work:        "yes"
 # comment out to hide (Experience is not shown
 # because it is the only required section)
 resume_section_education:       true
-resume_section_projects:        true
+resume_section_projects:        false # turn off for now... fill in later
 resume_section_skills:          true
 resume_section_recognition:     false
 resume_section_links:           true
-resume_section_associations:    true
+resume_section_associations:    false
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
@@ -43,25 +43,53 @@ resume_social_links:
   resume_website_url:           "http://denwilliams.net"
 
 # Summary
-resume_summary: "This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S."
+resume_summary: "Software engineer & IT professional with a diverse 17-year background in IT Management, Project Management, Software Engineering, Network and System Administration. Demonstrated ability to work effectively with individuals at all levels, and proven experience in leadership and management. An educational background covering software engineering, electronics and telecommunications enable a well-rounded understanding of systems and integration."
 
 # Experience
 resume_experience: 
   - role: "CTO"
     company: "LOKE Digital / Aston Club"
-    when: "October 2014 - Present"
-    summary: "Just a summary"
+    when: "Oct 2014 - Present"
+    summary: "Chief architect, engineering team manager, senior software engineer."
     competencies:
-      - .NET
+      - ".NET / C# / WPF"
       - Node.js
       - Android Java
-    footnote: Just a footnote
+      - Angular.JS
+      - HTML / Javascript
+    #footnote: Just a footnote
   - role: "Senior Software Engineer"
     company: "Aston Club"
-    when: "October 2014 - Present"
+    when: "Oct 2013 - Oct 2014"
+    summary: "Senior software engineer for Aston Club developing Node.js back-end, C# (.NET) based Windows services, C# WPF desktop applications and Angular.js web applications."
   - role: ".NET Developer (Contract)"
     company: "Aston Club"
-    when: "Oct 2014 - Present"
+    when: "Sep 2013 - Oct 2013"
+    summary: "Software engineer developing C# based Windows Service to integrate with a Node.js based Web Sockets API. Also involved with the development of the Node.js API utilising RabbitMQ as an event bus to create a distributed network of connected Point-of-Sale systems."
+  - role: "Lead Developer (Contract)"
+    company: "ManageMy GPS Pty Ltd"
+    when: "Apr 2012 - Sep 2013"
+    summary: "Ported and extended C# ASP.NET WebForms application to ASP.NET MVC. Developed C# WinForms based desktop application to interface with serial connected GPS loggers."
+    competencies:
+      - "Web: ASP.NET MVC / Web API / WinForms, JSON REST API + SOAP web services."
+      - "Data​: Entity Framework"
+      - "Desktop: WinForms"
+      - "Browser: Javascript, jQuery, Knockout.js"
+      - "Server: Windows Azure, SQL Server 2012 + SQL Azure, Azure Storage"
+  - role: "IT Manager"
+    company: "Arc @ UNSW Limited"
+    when: "Jan 2007 - Apr 2011"
+    summary: "Managed the IT and Development arms of the organisation. Predominantly Microsoft based network spanning multiple sites and outlets. .NET web applications and sites providing services both internally, and to the student population at the university."
+    #competencies:
+    #  - "Server: Windows Azure, SQL Server 2012 + SQL Azure, Azure Storage"
+  - role: "Network and Systems Administrator"
+    company: "UNSW Union"
+    when: "Aug 2006 - Sep 2007"
+    summary: "Managed the multi-site network & systems for the UNSW Union"
+  - role: "Service & Project Manager / Various"
+    company: "5D Solutions"
+    when: "Jan 1999 - Aug 2006"
+    summary: "A full-stack technology company, supplying bespoke software, hardware and services to the education and SMB sector. Roles and responsibilities ranged from development of management tools and web interfaces to managing multi-site equipment and system installations, to providing on-site IT services."
 
 # Education
 resume_education:
@@ -69,6 +97,36 @@ resume_education:
     what: "Bachelor of Engineer, Computer Systems"
     when: Jan 1997 - 2003
     notes: "Graduated with first class honours"
+
+# Skills
+resume_skills:
+  - title: '.NET / C#'
+    description: "Web applications: ASP.NET MVC 3/4/5, Web Forms. Web APIs: ASP.NET Web API 1/2, Nancy FX. Desktop applications: WinForms and WPF. Server applications: Windows Services, OWIN."
+  - title: Node.js (ES5/ES6)
+    description: Building back-end applications and services in Javascript using Node.js.
+  - title: Browser Javascript (ES5)
+    description: Building browser based web applications in Javascript.
+  - title: Single Page Applications
+    description: Building SPAs in Javascript using the Angular.JS framework.
+  - title: Android / Java
+    description: Building Android native mobile applications in Java.
+  - title: 'API interface'
+    description: "REST, JSON-RPC, XML-RPC"
+  - title: 'Markup'
+    description: "Familiar with a wide variety of markup languages including HTML, XML, JSON, Markdown"
+  - title: 'SQL'
+    description: "Predominantly Microsft SQL 2000 to 2012, also MySql but not at the same extent."
+  - title: 'NoSQL and Similiar'
+    description: "Predominantly MongoDB and Redis"
+  - title: 'Forgotten Skills'
+    description: "At some point in time, these were considered a skill. Alas lack of use over time I consider these a past proficiency. One I could probably skill up on again if needed: C++, Visual Basic, Powershell."
+
+# Links
+resume_links:
+  - url: http://blog.denwilliams.net
+    name: My blog
+  - url: https://www.linkedin.com/in/denwilliams
+    name: My LinkedIn
 
 # Design settings
 resume_theme:                   default
