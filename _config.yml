@@ -1,6 +1,6 @@
 # Site settings
 title: "Den Williams"
-description: "CTO / Software Engineer / Technology Enthusiast"
+description: "CTO / Manager / Software Engineer"
 
 # Build settings
 markdown: kramdown
@@ -11,15 +11,15 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Dennis Anthony Williams"
-resume_title:                   "CTO / Software Engineer / IT Professional / Technology Enthusiast"
-resume_contact_email:
-  "work@denwilliams.net"
+resume_title:                   "CTO / Manager / Software Engineer / IT Professional / Technology Enthusiast"
+# resume_contact_email:
+#  "work@denwilliams.net"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+# resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide (Experience is not shown
@@ -28,42 +28,76 @@ resume_section_education:       true
 resume_section_projects:        false # turn off for now... fill in later
 resume_section_skills:          true
 resume_section_recognition:     false
-resume_section_links:           true
+resume_section_links:           false
 resume_section_associations:    false
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/denwilliams/"
-  resume_twitter_url:           "http://twitter.com/den_williams"
+  # resume_twitter_url:           "http://twitter.com/den_williams"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com.au/in/denwilliams"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://denwilliams.net"
+  # resume_website_url:           "http://denwilliams.net"
 
 # Summary
-resume_summary: "Software engineer & IT professional with a diverse 17-year background in IT Management, Project Management, Software Engineering, Network and System Administration. Demonstrated ability to work effectively with individuals at all levels, and proven experience in leadership and management. An educational background covering software engineering, electronics and telecommunications enable a well-rounded understanding of systems and integration."
+resume_summary: >
+  CTO, engineering manager, software engineer & IT professional with 23+ years in the tech industry. 
+
+  Currently at LOKE where I have been working as the CTO for many years now.
+  
+#  any my days are becoming less hands on than they used to be, though I still get involved when the need arises.
+# Prior to that I have spent many years working in a few different roles covering software engineering, IT & project management, and network & system administration.
+# Studied Computer Systems Engineering at UTS which covered areas of software engineering, electronics and telecommunications, and enabled a well-rounded understanding of systems and integrations.
+
+# I have worked on desktop projects since the VB6 era, and web projects in early PHP and Classic ASP, before moving over to C# and .NET where I worked on projects using WinForms and WebForms initially before moving to ASP.NET MVC and WPF.
+# Went through the jQuery revolution, then Knockout.js starting to build more and more front-end code in browser-based Javascript. Remember too well the pain of trying to get projects to work consistently across browsers (cough IE6).
+# Started the SPA revolution (does anyone still use that acronym?) with Durandal.js (now aurelia.io), before moving to Angular.js (yes v1). 
+# Started to use Node.js for production systems around the time of v0.6 and have used it heavily ever since. Loved the introduction of Typescript, even more so the evolution of it. Rarely start a Javascript project without it these days!
+# Have since moved to React for web apps, after a brief stint with Vue, and starting to dabble more in Go for back-end services. 
+# Got involved at LOKE working on Android projects using Java (pre Kotlin days), but these days all the mobile app work we do is using React Native.
+
+# I have worked on projects as a member of a team, the leader of a team, as the sole developer, in a company, as a contractor and freelancer, with people overseas and in the same room.
+
+# These days I do more code reviewing of code than writing it, and spend more time thinking about the right tech decisions for the company and its employees than myself.
+# "Software engineer & IT professional with a diverse 17-year background in IT Management, Project Management, Software Engineering, Network and System Administration. Demonstrated ability to work effectively with individuals at all levels, and proven experience in leadership and management. An educational background covering software engineering, electronics and telecommunications enable a well-rounded understanding of systems and integration."
 
 # Experience
 resume_experience: 
   - role: "CTO"
-    company: "LOKE Digital / Aston Club"
+    company: "LOKE"
     when: "Oct 2014 - Present"
-    summary: "Chief architect, engineering team manager, senior software engineer."
+    summary: "Strategy - technology, product, people. Manager - engineering. Technical - software engineer, architect, devops."
     competencies:
-      - ".NET / C# / WPF"
-      - Node.js
-      - Android Java
-      - Angular.JS
-      - HTML / Javascript
+      - Grew the team up to 12 across 3 teams - 2 product, 1 integrations.
+      - Supported the business with rounds of technical due-diligence through investment, R&D grants, security audits.
+      - Been through several stages of growth and contraction through pandemic.
+      - Supported the business through international growth and expansion into different regions.
+      - Worked with the business supporting solutions for multiple enterprise sales.
+      - Introduce and evolve Agile and team processes for the teams over the years.
+      - Introduced CI/CD pipelines and automation.
+      - Driven quality and productivity enhancements including PR code reviews, pair programming processes, mentorship
+      - Added and run social bonding & Engagement - hackathons, lunches, park visits
+      - Helped drive social, cultural, and communication practices across the company
+      - Introduced communication and knowledge sharing tools and processes - company wiki, partner and API documentation systems, video productions, announcements, collaboration sessions
+      - Supported the business in changing the product over the years with changing environment and internal demands
+      - Built PoC projects to demonstrate product capabilities - reward intelligence, low code customisation engine
+      - Coded much of the foundations of the core product through the early years.
+      - "Node.js (since 2013 v0.10) / React / React Native / Typescript / Javascript / ECMAScript / Vue, Angular.JS, HTML / Javascript / CSS / Android Java / Kotlin / .NET / C# / WPF"
+      - "Postgres / Redis / RabbitMQ / MySql / MongoDB / Docker / AWS"
+      # - Engagement - , bingo, etc
+      # - Distributed and async business
+      # - Documentation systems - devdocs, wiki, 
+      # - API engagement
     #footnote: Just a footnote
   - role: "Senior Software Engineer"
-    company: "Aston Club"
+    company: "Aston Club (LOKE)"
     when: "Oct 2013 - Oct 2014"
     summary: "Senior software engineer for Aston Club developing Node.js back-end, C# (.NET) based Windows services, C# WPF desktop applications and Angular.js web applications."
   - role: ".NET Developer (Contract)"
-    company: "Aston Club"
+    company: "Aston Club (LOKE)"
     when: "Sep 2013 - Oct 2013"
     summary: "Software engineer developing C# based Windows Service to integrate with a Node.js based Web Sockets API. Also involved with the development of the Node.js API utilising RabbitMQ as an event bus to create a distributed network of connected Point-of-Sale systems."
   - role: "Lead Developer (Contract)"
@@ -72,7 +106,7 @@ resume_experience:
     summary: "Ported and extended C# ASP.NET WebForms application to ASP.NET MVC. Developed C# WinForms based desktop application to interface with serial connected GPS loggers."
     competencies:
       - "Web: ASP.NET MVC / Web API / WinForms, JSON REST API + SOAP web services."
-      - "Data​: Entity Framework"
+      - "Data: Entity Framework"
       - "Desktop: WinForms"
       - "Browser: Javascript, jQuery, Knockout.js"
       - "Server: Windows Azure, SQL Server 2012 + SQL Azure, Azure Storage"
@@ -94,37 +128,37 @@ resume_experience:
 # Education
 resume_education:
   - where: "University of Technology, Sydney"
-    what: "Bachelor of Engineer, Computer Systems"
+    what: "Bachelor of Engineering, Computer Systems"
     when: Jan 1997 - 2003
     notes: "Graduated with first class honours"
 
 # Skills
 resume_skills:
-  - title: '.NET / C#'
-    description: "Web applications: ASP.NET MVC 3/4/5, Web Forms. Web APIs: ASP.NET Web API 1/2, Nancy FX. Desktop applications: WinForms and WPF. Server applications: Windows Services, OWIN."
-  - title: Node.js (ES5/ES6)
-    description: Building back-end applications and services in Javascript using Node.js.
-  - title: Browser Javascript (ES5)
-    description: Building browser based web applications in Javascript.
-  - title: Single Page Applications
-    description: Building SPAs in Javascript using the Angular.JS framework.
-  - title: Android / Java
-    description: Building Android native mobile applications in Java.
-  - title: 'API interface'
-    description: "REST, JSON-RPC, XML-RPC"
+  - title: Backend
+    description: Node.js (since 2013 v0.10), Typescript (since v1), Javascript (ES5-ES2022), Golang (since 2018), previously C#/ASP.NET.
+  - title: Web
+    description: React, previously Vue, Angular, Durandal.js (now Aurelia.io), Knockout.js.
+  - title: Native Apps
+    description: React Native (since 2018), previously Java-Android.
+  - title: DevOps
+    description: Ansible (since 2014), Cloudformation (since 2017)
+  - title: CI/CD
+    description: Buildkite, Github Actions, previously Travis, CircleCI, Bitrise, Strider, Jenkins.
+  # - title: 'API'
+  #   description: "REST, JSON-RPC, XML-RPC"
+  - title: 'Databases and Cache'
+    description: "Postgres, Redis, Mysql, MongoDB, previously Microsft SQL 2000 to 2012."
+  - title: 'Cloud'
+    description: 'AWS (since 2013), previously Azure.'
   - title: 'Markup'
     description: "Familiar with a wide variety of markup languages including HTML, XML, JSON, Markdown"
-  - title: 'SQL'
-    description: "Predominantly Microsft SQL 2000 to 2012, also MySql but not at the same extent."
-  - title: 'NoSQL and Similiar'
-    description: "Predominantly MongoDB and Redis"
-  - title: 'Forgotten Skills'
-    description: "At some point in time, these were considered a skill. Alas lack of use over time I consider these a past proficiency. One I could probably skill up on again if needed: C++, Visual Basic, Powershell."
+  # - title: 'Forgotten Skills'
+  #   description: "At some point in time, these were considered a skill. Alas lack of use over time I consider these a past proficiency. One I could probably skill up on again if needed: C#, .NET, ASP.NET MVC 3/4/5, ASP.NET Web API 1/2, WinForms, WPF, OWIN, Web Forms, C++, Visual Basic, Powershell."
 
 # Links
 resume_links:
-  - url: http://blog.denwilliams.net
-    name: My blog
+  # - url: http://blog.denwilliams.net
+  #   name: My blog
   - url: https://www.linkedin.com/in/denwilliams
     name: My LinkedIn
 
